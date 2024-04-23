@@ -11,7 +11,7 @@ def load_data(filename):
                 data.append(json.loads(line.strip()))
             except json.JSONDecodeError as e:
                 print(f"Error parsing JSON on line {line_number}: {e}")
-    return data
+    return data 
 
 def parse_timestamp(timestamp):
     """ Convert ISO 8601 date strings to datetime objects, considering timezone. """
