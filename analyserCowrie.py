@@ -75,8 +75,7 @@ def print_analysis(results):
         print("\n")
 
 if __name__ == "__main__":
-    filename = 'C:\\Users\\sylve\\Skrivebord\\AAU\\eve.json.1\\eve.json.1'
+    filename = "C:\\Users\\sylve\\OneDrive\\Skrivebord\\AAU\\SEM. 2\\Whos cyber-sniffing Denmark\\honeypot_data.json"
     data = load_data(filename)
     analyzed_data = analyze_sessions(data)
-    print("this is somthing", analyzed_data);
     print_analysis(analyzed_data)
